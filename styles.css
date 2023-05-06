@@ -1,0 +1,69 @@
+
+
+
+
+/* images sizes to be the same within the carousel 
+
+.my-carousel-image-class {
+    height: 200px; /* set a fixed height for the images 
+}
+*/
+
+
+/*
+.my-image-class {
+    height: 200px;
+    width: 200px;
+  } */
+
+
+/* font to be same size on carousel heading THIS HASNT WORKED NO CHANGE - WHAT HAVE I DONE WRONG??
+.carousel-caption h5 {
+  font-size: .6rem; 
+}
+*/
+
+
+
+
+  /*images to be the same size in carousel*/
+
+  .carousel {
+    width: 500px; /* set the width of the carousel container */
+    height: 300px; /* set the height of the carousel container */
+  }
+  
+  .carousel-item img {
+    /*width: 100%; /* set the width of the images to 100% of the container */
+    height: 600px; /* set the height of the images to 100% of the container */
+    object-fit: cover; /* crop and center the images within the container */
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+
+
+  footer {
+    background-color: #0e36e9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-media-icons {
+    display: inline-block;
+  }
+  
+  .social-media-icons a {
+    color: #555;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .social-media-icons a:hover {
+    color: #777;
+  }
+  
