@@ -1,92 +1,163 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-<!--CSS link-->
-        <link rel="stylesheet" type="text/css" href="styles.css">
-<!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">  
-<!-- Link for font awesome for footer-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-  <body>
-<!--Blue Background and font colour for navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="background-color: #0e36e9;">  
-      <!--Nav Bar for bootstrap5-->                
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Home</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-           <!-- Don't think we need this part 
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>   -->
-            <!--<li class="nav-item"> 
-             
-              <a class="nav-link" href="#">Link</a>
-            </li> -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Destinations
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#"><!--Greece</a></li>-->
-                <a href="Page 2 Greece.html" >Greece</a>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#"><!--Positano</a></li>--> 
-                <a href="Page 3 Positano.html" >Positano</a>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#"><!--Amsterdam</a></li>-->
-                <a href="Page 4 Amsterdam.html" >Amsterdam</a>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#"><!--Gran Canaria</a></li>-->
-                <a href="Page 5 Gran Canaria.html" >Gran Canaria</a>
-              </ul>
-            </li>
-
-            <li class="nav-item">              
-              <a class="nav-link" href="#">Contact</a>
-       
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-        <!-- carousel --> 
-       <!-- this heading goes in the middle and in the way of h2 and h3...what have I done wrong????<h1>Holiday Heaven</h1>-->
-         <style>         
-            h1 {
-                color: #ffffff;
-                text-align: center;
-                position: absolute;
-                top: 10%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                font-family: 'Courier New', Courier, monospace;
-            }
-
-            h5, p {
-                color: white;
-                text-shadow: 2px 2px 4px #000000;
-            }
-
-            
-            
-          
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HolidayHeaven</title>
+    <link rel="stylesheet" href="./greece.css">
+</head>
+<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     
-
-
-<!--footer-->
+    <!-- Link for font awesome for footer-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<!--Blue Background and font colour for navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="background-color: #0E36E9;">
+  
+  <!--Nav Bar for bootstrap5-->
+  <div class="container-fluid">
+    <a class="navbar-brand" href="./index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       <!-- Don't think we need this part
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>   -->
+        <!--<li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Destinations
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Greece</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Positano</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Amsterdam</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Gran Canaria</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav> 
+​
+<h1>Holiday Heaven</h1>
+<br>
+<h2>Greece Santorini</h2>
+<br>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators"> <!--4 slides within carousel-->
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <!--1st slide-->
+    <div class="carousel-item active"> 
+      <img class="carousel__image" src="https://greekreporter.com/wp-content/uploads/2021/06/Greece_Santorini_Oia_swimming-pools_breakfast_GR_Credit_Greek-Reporter-2.jpg"  alt="....." style="max-width:100%;height:auto">
+    </div>
+   
+    <!--2nd slide-->
+    <div class="carousel-item">
+      <img class="carousel__image" src="https://media.manawa.com/cache/activity_gallery_zoom_770x500/media/2017/04/540c1e674810b3f6e6c8e02b06c85ca7.jpeg" class="d-block w-100" alt="..." style="max-width:100%;height:auto">
+    </div>
+    
+    <!--3rd slide-->
+    <div class="carousel-item">
+      <img class="carousel__image" src="https://a.cdn-hotels.com/gdcs/production18/d1838/041ae6b1-0a88-4c22-a648-53a22dd4a006.jpg" class="d-block w-100" alt="..." style="max-width:100%;height:auto">
+    </div>
+    
+    <!--4th slide-->
+    <div class="carousel-item">
+      <img class="carousel__image" src="https://i0.wp.com/theboutiqueadventurer.com/wp-content/uploads/2021/01/santorini-sunset-with-windmill.jpg" class="d-block w-100" alt="..." style="max-width:100%;height:auto">
+    </div>
+  </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+<br>
+<p>
+  The kind of island you pray to get stranded on forever.<br>Multi-coloured beaches, hilltop villages, cave houses and the most famed sunset destination in Europe.<br>
+</p>
+<h2>Go For</h2>
+<ul>
+  <li>Tumbling whitewashed villas</li>
+  <li>Caves & cliffscapes</li>
+  <li>Watersports on beautiful beaches</li>
+</ul>
+<h2>Need to Know</h2>
+<p>The best way to get around is to rent a scooter, youll see
+   the best views.
+</p>
+<h2>Overall Rating</h2>
+<table>
+  <tr> 
+    <td>Affordable</td>
+    <td>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+    </td>
+  </tr>
+  <tr>
+    <td>Culture</td>
+    <td>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+    </td>
+  </tr>
+  <tr>
+    <td>Food</td>
+    <td>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+    </td>
+  </tr>
+  <tr>
+    <td>Nature</td>
+    <td>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+    </td>
+  </tr>
+  <tr>
+    <td>Nightlife</td>
+    <td>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+    </td>
+  </tr>
+</table>
+​
 <footer>
   <p>Follow us:</p>
   <div class="social-media-icons">
@@ -96,74 +167,5 @@
     <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
   </div>
 </footer>
-<!--Link to page 2-->
-<a href="Page 2 Greece.html" > Go to Page2 </a>
-
-
-
 </body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <!--<a href="Intro Page End Project.html">Back</a>
-
-Blue Background and font colour for navbar
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="background-color: #0e36e9;">  
-    Nav Bar for bootstrap5               
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Home</a>
-      <a href="Intro Page End Project.html">Go to Intro Page </a>
-
-
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Destinations
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Greece</a></li>
-                  <a href="Page 2 Greece.html" >Greece</a>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Positano</a></li> 
-                  <a href="Page 3 Positano.html" >Positano</a>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Amsterdam</a></li>
-                  <a href="Page 4 Amsterdam.html" >Amsterdam</a>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Gran Canaria</a></li>
-                  <a href="Page 5 Gran Canaria.html" >Gran Canaria</a>
-                </ul>
-              </li>
-  
-              <li class="nav-item">              
-                <a class="nav-link" href="#">Contact</a>
-         
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>-->
-
-
-    </body>
 </html>
